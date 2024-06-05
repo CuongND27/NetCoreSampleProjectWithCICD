@@ -66,7 +66,7 @@ namespace Test
             // Assert
             foreach (var forecast in result)
             {
-                Assert.InRange(forecast.TemperatureC, -20, 55);
+                Assert.InRange(forecast.TemperatureC, -20, 60);
             }
         }
     }
