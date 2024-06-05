@@ -14,7 +14,7 @@ namespace Test
             var result = service.Get();
 
             // Assert
-            Assert.Equal(5, result.Count());
+            Assert.Equal(10, result.Count());
         }
 
         [Fact]
