@@ -24,7 +24,7 @@ namespace CICDTest.Controllers
             return Enumerable.Range(1, 10).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                TemperatureC = Random.Shared.Next(-20, 60),
+                TemperatureC = Random.Shared.Next(-20, 66),
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
