@@ -12,7 +12,9 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-arm
+    runs-on: self-hosted
+    container:
+      image: arc-default
 
     steps:
     - uses: actions/checkout@v4
